@@ -2,6 +2,14 @@ git init
 git status
 git add .
 git commit -m ""
-git restore 
+git restore
+
+git remote add origin http://
+git remote -v
+
+git remote -v
+git remote set-url origin https://PAT@Repo
+git remote -v
+git push origin main
 
 
